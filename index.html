@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Happy+Monkey&family=Karla:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,200&family=Oleo+Script:wght@400;700&family=Orbitron:wght@400;800&display=swap" rel="stylesheet">
+    <title>Password Generator</title>
+</head>
+<body>
+    <div class="hero">
+        
+        <div class="title">
+            <h1 id="heading">Generate a <span class="h1-span"><br>random password</span></h1>
+            <h4 id="sub-heading">Never use an insecure password again.</h4>
+        </div>
+
+        <div id="hero-btns">
+            <div id="features">
+                <label for="charInput">Max Character:</label>
+                <input type="text" id="char-input" value="15">
+                <button id="check-btn" onclick="maxCharacters()">✔</button>
+            </div>
+            <div>
+                <button id="generate-btn" onclick="generatePassword()">Generate Passwords</button>
+                <button id="clear-btn" onclick="remove()">clear</button>
+            </div>
+        </div>
+        <div class="underline"></div>
+
+        <div id="hero-pass">
+            <div class="pw-screen" id="pw-scr1" onclick="clipBoard(features.firstPanel)"></div>
+            <div class="pw-screen" id="pw-scr2" onclick="clipBoard(features.secondPanel)"></div>
+        </div>
+        
+        <p id="notif"></p>
+        </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>

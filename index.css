@@ -1,0 +1,114 @@
+
+
+body {
+    font-family: 'Karla', sans-serif;
+    margin: 0 auto;
+    text-align: start;
+    background-color: #1F2937;
+    display: block;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 550px;
+    width: 550px;
+    margin: 0 auto;
+    border: 1px solid white;
+}
+
+
+#heading {
+    color: white;
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: -2.5%;
+    line-height: 40px;
+    margin: 80px auto 0;
+}
+#sub-heading{
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    margin: 5px auto;
+    font-weight: 400;
+}
+.h1-span{
+    color: #4ADF86;
+}
+
+
+#hero-btns {
+    margin: 35px 0 35px 0;
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+
+}
+#features {
+    color: white;
+    margin: 0 0 10px 0;
+}
+
+#char-input {
+    width: 35px;
+    text-align: center;
+    color: inherit;
+    background-color: #374151;
+    border: 1px solid white;
+    margin: 0 0 0 5px;
+}
+#check-btn{
+    height: 19px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+button {
+    background-color: #10B981;
+    padding: 9px 15px;
+    color: white;
+    font-family: inherit;
+    font-weight: 400;
+    border: none;
+    border-radius:5px;
+    margin: 0 5px 0 0;
+}
+
+.underline {
+    border-bottom: 1px solid #2F3E53;
+    width: 445px;
+}
+
+#hero-pass {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+
+}
+
+.pw-screen {
+    width: 210px;
+    height: 39px;
+    background-color: #273549;
+    color: #55F991;
+    text-align: center;
+    font-size: 16px;
+    line-height: 32px;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 0;
+    margin: 0 15px;
+    
+}
+
+#notif {
+    color: white;
+}
